@@ -2,9 +2,11 @@ package TicTacToeGame;
 
 import java.util.Scanner;
 
-public class TiTacToeUtil {
+public class TicTacToeUtil {
 
-    public static void main(String[] args) {
+    private TicTacToeUtil(){
+    }
+    public static void startGame (){
         BoxPrinter boxPrinter = new BoxPrinter();
         BoxBuilder boxBuilder = new BoxBuilder();
         WinnerChecker winnerChecker = new WinnerChecker();
